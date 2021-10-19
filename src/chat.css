@@ -1,0 +1,27 @@
+.chatBot{
+    background-color:#106bde;
+    height:760px;
+}
+
+.Chatimg img{
+    margin-top:20px;
+    margin-left:10px;
+    width:500px;
+}
+
+.chatImgfooter{
+    background-color:#0033b5;
+    width:330px;
+    height:30px;
+    margin-left:80px;
+    text-align: center;
+    font-size:1.3rem;
+    color:#f1f1f1;
+    font-weight:bold;
+}
+
+.chatBotUi{
+    position:absolute;
+    left:40%;
+    top:20%;
+}

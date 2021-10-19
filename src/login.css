@@ -1,0 +1,186 @@
+.mainHome {
+  text-align: center;
+}
+
+.formContainer {
+  position: relative;
+  left: 20%;
+  margin-top: 120px;
+ color:#f1f1f1;
+ font-weight: bold;
+  width: 70%;
+  height: 450px;
+  background-color: #161616;
+}
+
+.imgLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminLoginMain{
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+height:790px;
+}
+
+.tweetMain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 130px;
+  border-bottom:15px;
+}
+
+.tweetMain .tweet {
+  width: 400px;
+  height: 320px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px black;
+  background: #ffffff;
+}
+.footerMain {
+  background-color: #1b2c39;
+  color: gainsboro;
+}
+
+.footer div {
+  margin-right: 190px;
+  display: inline-block;
+}
+
+.copyright {
+  border-top: 0.3px solid rgb(105, 105, 105);
+  font-size: 1rem;
+  position: relative;
+  top: 22%;
+  text-align: center;
+}
+.quoteOftheDay {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px 2px black;
+  margin: 30px;
+  padding: 8px 12px;
+}
+.footer span {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.topReviews {
+  margin: 40px;
+  color:#f1f1f1;
+}
+
+.hand {
+  font-size: 4rem;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+}
+.schoolDet {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.slide-container {
+  width: 1400px;
+  margin-left: 75px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px black;
+  background-color: #ffffff;
+}
+
+.schoolData {
+  width: 800px;
+  margin-left: 26rem;
+  margin-top: 50px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px #000;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #f1f1f1;
+  padding: 15px 30px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 500px;
+ 
+}
+
+.Admin-Login-heading {
+ background-color: tomato;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 1.3rem;
+  letter-spacing:0.5rem;
+  font-weight: bold;
+  width: 100%;
+  border:none;
+}
+
+.inputBox {
+  margin-top: 60px;
+}
+
+.inputBox input {
+  margin: 10px;
+  width: 500px;
+  height: 35px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.inputBox button {
+  margin: 10px;
+}
+
+.linkSignup {
+  text-align: center;
+  text-decoration: none;
+}
+
+.newSignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginImg {
+  width: 150px;
+  margin: 30px;
+}
+
+.eyeAdmin {
+  position: absolute;
+  top: 74%;
+  left: 95%;
+  color: black;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+
+input::-ms-reveal {
+  display: none;
+}

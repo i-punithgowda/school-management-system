@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "school_db.js",
+  "scripts": {
+    "start": "nodemon school_db.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Punith",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "socket.io": "^4.1.2"
+  }
+}

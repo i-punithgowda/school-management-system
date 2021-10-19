@@ -1,0 +1,130 @@
+body{
+    color: #757575
+}
+
+
+.StudentsignupMain{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    height:790px;
+}
+
+.TeachersignupMain{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    height:790px;
+}
+
+.formContainerSignup{
+    position:relative;
+    left:20%;
+    margin-top:50px;
+    width:70%;
+    height:608px;
+    background-color: #161616;
+    color:#f1f1f1;
+    }
+
+    .formContainerSignupTeacher{
+        position:relative;
+        left:20%;
+        margin-top:50px;
+        width:70%;
+        height:500px;
+        background-color: #161616;
+        color:#f1f1f1;
+        }
+    
+    .Student-signup-heading{
+       background-color: tomato;
+        height:80px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        color:#f1f1f1;
+        font-weight: bold;
+        width:100%;
+        letter-spacing:0.5rem;
+        font-size:1.3rem;
+        color:#000;
+    }
+    
+    .inputBox{
+        margin-top:20px;
+       margin-left:20px;
+    }
+    
+    .inputBox input{
+        margin:10px;
+        width:500px;
+        height:35px;
+        outline:none;
+        border:1px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+    }
+    .inputBox select{
+        margin:10px;
+        width:500px;
+        height:35px;
+        outline:none;
+        border:1px solid rgba(0,0,0,0.2);
+    font-weight: bold;
+    }
+    
+    .inputBox button{
+        margin:10px;
+    }
+    
+    .linkSignup{
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .newSignUp{
+    position:absolute;
+    bottom:3%;
+    left:80%;
+    }
+
+    .dropDown{
+        margin:10px;
+        width:500px;
+        height:35px;
+        outline: none;
+        border: 1px solid rgba(0,0,0,0.2);
+        font-weight: bold;
+    }
+.imgSignup{ 
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .imgSignup img{
+        width:100px;
+        
+    }
+
+    #passwordStudent{ 
+        margin-left:250px;
+    }
+
+    .btnSignup{
+       display:flex;
+       align-items:center;
+       justify-content:center;
+    }
+
+    .eyeTeacher{
+        position:absolute;
+        left:95%;
+        top:82%;
+        color:black;
+        cursor:pointer;
+    }
+
+    .eyeStudent{
+        position:absolute;
+        left:47%;
+        top:85%;
+        color:black;
+        cursor:pointer;
+    }
